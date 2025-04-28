@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Yesteryear&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-135deg,#024a50d6, #013f45);
+    /* background-color: #0a2dc9ce; */
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    /* background-color: #AAABB8; */
+    background: linear-gradient(-135deg,#0fa4af,#0fa4af51);
+    box-shadow: 5px 5px 10px #050607;
+    width: 300px;
+    height: 50vh;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    margin: 10px 0px;
+    color: aliceblue;
+    font-weight: 500;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+}
+p{
+    margin: 7px 0px;
+    color: aliceblue;
+}
+.weather-info p span{
+    font-weight: 600;
+    /* font-size: 20px; */
+}
+.error{
+    color: #670101;
+}
+.hidden{
+    display:none;
+}
+

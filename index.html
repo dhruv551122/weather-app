@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+           <h1>Current Weather</h1>
+           <input type="text" id="city-name" placeholder="Enter your city name">
+           <button>Know Weather</button>
+        </div>
+        <div class="content">
+            <div class="weather-info hidden">
+                <p id="City"></p>
+                <p id="date"></p>
+                <p id="day-time"></p>
+                <p id="Temprature"></p>
+                <p id="Weather"></p>
+                <p id="Humidity"></p>
+                <p id="Wind-speed"></p>
+              </div>
+              <p class="error hidden">City not found. Try again.</p>
+          </div>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
